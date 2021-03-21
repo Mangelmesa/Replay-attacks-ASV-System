@@ -10,26 +10,26 @@ Generador de audios de data augmentation y audios spoof siguiendo las directrice
 _______________________
 
 -->Funciones y archivos de roomsimove (https://homepages.loria.fr/evincent/software/Roomsimove_1.4.zip):
-    --> cardioid.mat
-    -->omnidirectional.mat
-    -->room_sensor_config.txt
-    -->roomsimove.m
-    -->roomsimove_apply.m
-    -->roomsimove_single.m
-    -->RT60.m
-    -->source_config
+    --> cardioid.mat    
+    -->omnidirectional.mat  
+    -->room_sensor_config.txt   
+    -->roomsimove.m 
+    -->roomsimove_apply.m   
+    -->roomsimove_single.m  
+    -->RT60.m   
+    -->source_config    
 
 --> Función de Synchronized Swept Sine (https://ant-novak.com/pages/sss/):
-    --> SSS
+    --> SSS 
     
 -->Funciones y archivos extra generados:
-    -->func_replace_string.m
-    -->HH_attack_calculator.m
-    -->possible_comb.txt
-    -->possible_comb_attack.txt
-    -->RIR_Applier.m
-    -->RIR_Calculator.m
-    -->Spoof_generator.m
+    -->func_replace_string.m    
+    -->HH_attack_calculator.m   
+    -->possible_comb.txt    
+    -->possible_comb_attack.txt 
+    -->RIR_Applier.m    
+    -->RIR_Calculator.m 
+    -->Spoof_generator.m    
     
 --> Archivos de audio en la carpeta Audios
 
