@@ -66,4 +66,4 @@ Posibles soluciones/alternativas:
   
 2. La función SSS genera los efectos no lineales del altavoz. Para los altavoces de calidad alta-baja, se escucha el audio repetido con mucho eco. 
 Posibles soluciones/alternativas:   
-  -->Variar la frecuencia y la duración del SSS no cambia este efecto
+  -->Variar la frecuencia de muestreo y la duración del SSS no cambia este efecto
