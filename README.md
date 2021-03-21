@@ -58,12 +58,12 @@ ___________________________________
 y coef. de absorción de las paredes. Esos parámetros se pueden modificar para simular distintas habitaciones. El valor de RT60 establecido por ASVSpoof 2019 (se puede consultar 
 al principio del script RIR_Calculator.m) no se puede obtener para el tamaño de habitación que ellos usan. 
 Posibles soluciones/alternativas:   
-  --> Variar el tamaño de la habitación fuera del rango para obtener RIR correcto. Por tanto, tendríamos el mismo RT60 pero unas dimensiones de la habitación muy diferentes.
+  --> Variar el tamaño de la habitación fuera del rango para obtener RIR correcto. Por tanto, tendríamos el mismo RT60 pero unas dimensiones de la habitación muy diferentes.   
   --> Variar el coeficiente de absorción de las paredes: La única otra alternativa, pues RT60 solo depende de ambos valores. Por defecto todos los valores están a 0.671.   
   Según (https://cds.cern.ch/record/1251519/files/978-3-540-48830-9_BookBackMatter.pdf), ese valor no tiene mucho sentido. Variando el valor dependiendo del tamaño de la 
   habitación podemos obtener el RT60 deseado, puesto que con un valor fijo nunca obtendremos tres valores que casen. Además, el valor no puede ser muy pequeño puesto que si
   no MATLAB no puede calcular tantos ecos.  
   
 2. La función SSS genera los efectos no lineales del altavoz. Para los altavoces de calidad alta-baja, se escucha el audio repetido con mucho eco. 
-Posibles soluciones/alternativas: 
-  1. Variar la frecuencia y la duración del SSS no cambia este efecto
+Posibles soluciones/alternativas:   
+  -->Variar la frecuencia y la duración del SSS no cambia este efecto
